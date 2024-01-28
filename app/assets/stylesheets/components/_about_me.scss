@@ -1,6 +1,16 @@
 .short-job-description {
-  width: 30vh;
+  width: 40vh;
+  background-color: rgb(191, 220, 191);
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+
 }
+
+.name-job{
+  width: 70vh;
+}
+
 .name-job .name h1 {
   font-size: 100px;
 }
