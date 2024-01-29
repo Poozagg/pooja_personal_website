@@ -11,18 +11,22 @@
   width: 70vh;
 }
 
-.name-job .name h1 {
+.name {
   font-size: 100px;
+  margin-bottom: 25px;
 }
 
-.name-job .name h2 {
-  font-size: 60px;
+.job-title {
+  font-size: 70px;
 }
 .profile-pic{
-  width: 30vh;
-  height: 30vh;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
   margin-top: 20px;
+  margin-bottom: 20px;
+  height: 35vh;
+  width: 35vh;
+  padding-right: 20px;
+  margin-right: 20px;
 }
