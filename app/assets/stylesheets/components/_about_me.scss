@@ -1,5 +1,5 @@
-.short-job-description {
-  width: 40vh;
+.short-para-about-me {
+  width: 100%;
   background-color: rgb(191, 220, 191);
   margin: 0 auto;
   padding: 20px;
@@ -11,10 +11,22 @@
   width: 70vh;
 }
 
-.name-job .name h1 {
+.name {
   font-size: 100px;
+  margin-bottom: 25px;
 }
 
-.name-job .name h2 {
-  font-size: 60px;
+.job-title {
+  font-size: 70px;
+}
+.profile-pic{
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 36vh;
+  width: 40vh;
+  padding-right: 20px;
+  margin-right: 20px;
 }
