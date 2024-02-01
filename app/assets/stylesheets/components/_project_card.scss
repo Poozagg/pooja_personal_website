@@ -24,3 +24,14 @@
   transform: scale(1.5);
   border-radius: 13px;
 }
+.project-info-link {
+  color: black;
+//   letter-spacing: 20px;
+  font-size: 25px;
+}
+.project-info-link:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  transform: scale(1.5);
+  border-radius: 13px;
+}
