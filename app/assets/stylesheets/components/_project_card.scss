@@ -1,0 +1,37 @@
+.project-card{
+  background-color: #e4c1f9;
+  border-radius: 10px;
+  padding: 10px;
+  // margin-top: 20px;
+  margin-bottom: 20px;
+  height: 400px;
+}
+.carousel-item img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 10px;
+}
+.project-github-link {
+  color: black;
+//   letter-spacing: 20px;
+  font-size: 25px;
+}
+.project-github-link:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  transform: scale(1.5);
+  border-radius: 13px;
+}
+.project-info-link {
+  color: black;
+//   letter-spacing: 20px;
+  font-size: 25px;
+}
+.project-info-link:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  transform: scale(1.5);
+  border-radius: 13px;
+}

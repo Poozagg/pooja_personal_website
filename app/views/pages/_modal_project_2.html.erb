@@ -1,0 +1,32 @@
+<!-- Button trigger modal -->
+
+
+<%# <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> %>
+
+<%= link_to '<i class="project-info-link fa-solid fa-circle-info"></i>'.html_safe, '#myModal', 'data-bs-toggle' => 'modal', 'data-bs-target' => '#exampleModal' %>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> WasteNot</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        WasteNot ensures a seamless experience on smartphones for individuals who wish to make the most of food ingredients at home, creating diverse recipes and minimizing waste.
+        <div class="project-video">
+          <%=  get_vimeo_iframe('https://vimeo.com/908662765?autoplay=1', '450px', '450px')%>
+        </div>
+        <h6>Team size: 4 <i class="fa-solid fa-people-group"></i> </h6>
+        <h6>Project delivered: 2 weeks <i class="fa-regular fa-calendar-days"></i></h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
