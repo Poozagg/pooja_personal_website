@@ -35,22 +35,36 @@
   letter-spacing: 20px;
   font-size: 60px;
 }
-// .fab:hover {
-//   color: pink;
-// }
+
 .fa-brands {
   color: lightgray;
   letter-spacing: 20px;
   font-size: 60px;
 }
-// .fa-brands:hover {
-//   color: pink;
-// }
+.contact-card-category {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: relative; // NEEDED FOR THE LINK
+  }
 // To stretch the link on top of the card div
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
 .card-link {
   position: absolute;
-  top: 0;
+  top: 50px;
   bottom: 0;
-  left: 0;
+  left: 55px;
   width: 100%;
+  }
 }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .card-link {
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    }
+  }
