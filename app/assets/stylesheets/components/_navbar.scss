@@ -3,9 +3,11 @@
   margin: 0;
   padding: 0;
   overflow: visible;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
+  // z-index helps the navbar to be on top of the other elements
+  z-index: 3;
 }
 .navbar-lewagon {
   justify-content: space-between;
