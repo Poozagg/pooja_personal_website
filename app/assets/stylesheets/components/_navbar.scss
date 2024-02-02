@@ -1,3 +1,14 @@
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  // z-index helps the navbar to be on top of the other elements
+  z-index: 3;
+}
 .navbar-lewagon {
   justify-content: space-between;
   background: $pink;
@@ -8,10 +19,15 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 50px;
+  width: 60px;
 }
 .nav-link{
   font-size: 25px;
-  // background-color: rgb(186, 97, 110);
-  // width: 100px;
+}
+.nav-item:hover {
+  background-color: #f4d0e1;
+  color: white;
+  border-radius: 5px;
+  // padding: 5px;
+  // margin: 5px;
 }
