@@ -1,17 +1,15 @@
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
 .contact-card-category {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+  background-color: #fcf6bd;
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  overflow: hidden;
   font-size: 24px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -29,48 +27,33 @@
   .fa-brands {
       color: white;
     }
+  .fa-solid {
+    color: white !important;
+  }
 }
-// .fab {
-//   color: lightgray;
-//   letter-spacing: 20px;
-//   font-size: 60px;
-// }
+
 
 .personal-github-link {
   color: lightgray;
-  letter-spacing: 20px;
   font-size: 60px;
 }
 
 .fa-brands {
   color: lightgray;
-  letter-spacing: 20px;
   font-size: 60px;
 }
-.contact-card-category {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  position: relative; // NEEDED FOR THE LINK
-  }
-// To stretch the link on top of the card div
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-.card-link {
-  position: absolute;
-  top: 50px;
-  bottom: 0;
-  left: 55px;
-  width: 100%;
-  }
-}
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .card-link {
-    position: absolute;
-    top: 30%;
-    bottom: 0;
-    left: 55%;
-    width: 100%;
-    }
-  }
+
+// .contact-card-category {
+//   overflow: hidden;
+//   background: white;
+//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+//   position: relative; // NEEDED FOR THE LINK
+// }
+// // To stretch the link on top of the card div
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .card-link {
+//     position: absolute;
+//     width: 100%;
+//     }
+//   }
