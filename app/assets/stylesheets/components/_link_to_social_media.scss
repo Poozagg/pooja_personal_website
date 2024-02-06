@@ -1,7 +1,7 @@
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  // grid-gap: 20px;
 }
 .contact-card-category {
   background-size: cover;
@@ -29,15 +29,14 @@
   .fa-brands {
       color: white;
     }
+  a[href^="mailto:"]::before {
+    color: white !important;
+  }
 }
-// .fab {
-//   color: lightgray;
-//   letter-spacing: 20px;
-//   font-size: 60px;
-// }
+
 
 .personal-github-link {
-  color: lightgray;
+  color: pink;
   letter-spacing: 20px;
   font-size: 60px;
 }
@@ -47,17 +46,13 @@
   letter-spacing: 20px;
   font-size: 60px;
 }
-.fa-envelope-circle-check::before {
-  color: lightgray;
-  letter-spacing: 20px;
-  font-size: 60px;
-}
+
 .contact-card-category {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   position: relative; // NEEDED FOR THE LINK
-  }
+}
 // To stretch the link on top of the card div
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
