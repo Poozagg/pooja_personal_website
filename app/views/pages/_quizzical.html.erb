@@ -1,0 +1,41 @@
+<div class="project-card">
+  <div class="d-flex bd-highlight">
+    <div class="p-2 flex-grow-1 bd-highlight">
+      <h4> Quizzical </h4>
+    </div>
+    <div class="p-2 bd-highlight">
+      <%= link_to "https://github.com/Poozagg/quizzical", target: "_blank" do %>
+        <i class="project-github-link fab fa-github"></i>
+      <% end %>
+    </div>
+    <div class="p-2 bd-highlight">
+      <%= render 'modal_WasteNot' %>
+    </div>
+  </div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <%= image_tag "1.jpeg", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "2.jpeg", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "3.jpeg", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "4.jpeg", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "5.jpeg", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "6.jpeg", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "7.jpeg", class: "d-block w-100", alt:"..." %>
+      </div>
+
+    </div>
+  </div>
+</div>

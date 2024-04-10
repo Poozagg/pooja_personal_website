@@ -1,0 +1,61 @@
+<div class="project-card">
+  <div class="d-flex bd-highlight">
+    <div class="p-2 flex-grow-1 bd-highlight">
+      <h4> Slope Rentals </h4>
+    </div>
+    <div class="p-2 bd-highlight">
+      <%= link_to "https://github.com/AdamPriestman/SlopeRentals", target: "_blank" do %>
+        <i class="project-github-link fab fa-github"></i>
+      <% end %>
+    </div>
+    <div class="p-2 bd-highlight">
+      <%= render "modal_SlopeRental" %>
+    </div>
+  </div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <%= image_tag "1.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "2.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "3.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "4.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "5.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "6.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "7.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "8.png", class: "d-block w-100", alt:"..." %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "9.png", class: "d-block w-100", alt:"..." %>
+      </div>
+    </div>
+  </div>
+  <%# tech stack used for the project %>
+  <div>
+    <div class="project-tech-stack">
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg", alt: "rails", width: 40, height: 40) %>
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg", alt: "ruby", width: 40, height: 40) %>
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg", alt: "html", width: 40, height: 40) %>
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg", alt: "css3", width: 40, height: 40) %>
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", alt: "javascript", width: 40, height: 40) %>
+      <%= image_tag("stimulus.png", alt: "j stimulus", width: 40, height: 40) %>
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg", alt: "jpostgresql", width: 40, height: 40) %>
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg", alt: "bootstrap", width: 40, height: 40) %>
+      <%= image_tag("https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg", alt: "sass", width: 40, height: 40) %>
+      <%= image_tag("https://www.vectorlogo.zone/logos/figma/figma-icon.svg", alt: "figma", width: 40, height: 40) %>
+    </div>
+  </div>
+</div>

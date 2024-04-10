@@ -4,7 +4,7 @@
   padding: 10px;
   // margin-top: 20px;
   margin-bottom: 20px;
-  height: 400px;
+  height: 475px;
 }
 .carousel-item img {
   height: 300px;
@@ -34,4 +34,12 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.7);
   transform: scale(1.5);
   border-radius: 13px;
+}
+.project-tech-stack {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
+  grid-gap: 1.0rem;
+  background-color: rgba;
 }
