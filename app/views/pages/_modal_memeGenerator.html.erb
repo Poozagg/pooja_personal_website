@@ -1,0 +1,41 @@
+<%= link_to '<i class="project-info-link fa-solid fa-circle-info"></i>'.html_safe, '#myModal', 'data-bs-toggle' => 'modal', 'data-bs-target' => '#memeGeneratorModal' %>
+
+
+<!-- Modal -->
+<div class="modal fade" id="memeGeneratorModal" tabindex="-1" aria-labelledby="memeGeneratorModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="memeGeneratorModalLabel"> Meme Generator </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="row modal-body">
+        <div class="col-12 col-lg-6">
+          Type anything and click to generate a personalized meme with your text –
+          it's fast and easy! Unleash your creativity and get ready to share some laughs with the meme generator app.
+          <br>
+          <p>App Features:</p>
+          <li> Responsive UI: Experience our app's responsive design, ensuring a smooth user experience across devices. </li>
+          <li> Customizable content: Easily personalize your memes with customizable text and content using intuitive forms. </li>
+
+          <a href="https://memeGenerator-24.netlify.app/"></a>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div style="padding:62.5% 0 0 0;position:relative;">
+            <iframe
+              src="https://www.youtube.com/embed/FuLulEFumsg"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="position:absolute; top:0; left:0; width:100%; height:100%;"
+              title="Meme Generator App"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
