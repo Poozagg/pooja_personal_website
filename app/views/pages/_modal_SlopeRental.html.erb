@@ -1,28 +1,31 @@
-<!-- Button trigger modal -->
+
+<%= link_to '<i class="project-info-link fa-solid fa-circle-info"></i>'.html_safe, '#myModal', 'data-bs-toggle' => 'modal', 'data-bs-target' => '#slopeRentalModal' %>
 
 
-<%# <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
-  Launch demo modal
-</button> %>
-
-<%= link_to '<i class="project-info-link fa-solid fa-circle-info"></i>'.html_safe, '#myModal', 'data-bs-toggle' => 'modal', 'data-bs-target' => '#Modal' %>
-
-
-<!-- Modal -->
-<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<!-- slopeRentalModal -->
+<div class="modal fade" id="slopeRentalModal" tabindex="-1" aria-labelledby="slopeRentalModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ModalLabel">SlopeRentals</h5>
+        <h5 class="modal-title" id="slopeRentalModalLabel">SlopeRentals</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        Website for renting the perfect ski gear for your holiday adventures. Discover a wide range of high-quality equipment to make your skiing experience unforgettable. Say goodbye to the hassle of purchasing gear, and hello to convenient rentals with SlopeRentals.
-        <div class="project-video">
-          <%= get_vimeo_iframe('https://vimeo.com/908621982?autoplay=1', '450px', '450px') %>
+      <div class="row modal-body">
+        <div class="col-12 col-lg-6">
+          Website for renting the perfect ski gear for your holiday adventures. Discover a wide range of high-quality equipment to make your skiing experience unforgettable. Say goodbye to the hassle of purchasing gear, and hello to convenient rentals with SlopeRentals.
         </div>
-        <h6>Team size: 4 <i class="fa-solid fa-people-group"></i> </h6>
-        <h6>Project delivered: 1 week <i class="fa-regular fa-calendar-days"></i> </h6>
+        <div class="col-12 col-lg-6">
+          <div style="padding:62.5% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/908621982?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="SlopeRental App"
+            >
+            </iframe>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>

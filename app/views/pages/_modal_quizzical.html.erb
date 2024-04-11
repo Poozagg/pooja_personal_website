@@ -1,0 +1,49 @@
+<%= link_to '<i class="project-info-link fa-solid fa-circle-info"></i>'.html_safe, '#myModal', 'data-bs-toggle' => 'modal', 'data-bs-target' => '#quizzicalModal' %>
+
+
+<!-- Modal -->
+<div class="modal fade" id="quizzicalModal" tabindex="-1" aria-labelledby="quizzicalModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="quizzicalModalLabel"> Quizzical </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="row modal-body">
+        <div class="col-12 col-lg-6">
+          "Quizzical" showcases 5 questions, each with 4 possible answers, prompting users to select one.
+          After submitting their choices, correct answers are indicated in green while incorrect ones are highlighted in red.
+          If an answer is incorrect, the correct option is highlighted in blue for clarity.
+          Points are tallied and prominently displayed for easy reference.
+          <br>
+          <p>App Features:</p>
+          <ul>
+            <li> Allowing users to select the quiz category and difficulty level of their preference. </li>
+            <li> Displaying quiz questions tailored to the chosen category and difficulty. </li>
+            <li> Validating user-selected answers for correctness. </li>
+            <li> Clearly presenting correct responses. </li>
+            <li> Tracking and displaying accumulated points. </li>
+            <li>Offering users the choice to replay the game session if desired. </li>
+          </ul>
+
+          <a href="https://quizzical-24.netlify.app/"></a>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div style="padding:62.5% 0 0 0;position:relative;">
+            <iframe
+              src="https://www.youtube.com/embed/tBhVh0hFJHM"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="position:absolute; top:0; left:0; width:100%; height:100%;"
+              title="Quizzical App"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
