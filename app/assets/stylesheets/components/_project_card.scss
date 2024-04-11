@@ -3,8 +3,9 @@
   border-radius: 10px;
   padding: 10px;
   // margin-top: 20px;
-  margin-bottom: 20px;
-  height: 475px;
+  margin-bottom: 1rem;
+  min-height: 460px;
+  // height: fit-content;
 }
 .carousel-item img {
   height: 300px;
@@ -36,10 +37,18 @@
   border-radius: 13px;
 }
 .project-tech-stack {
-  margin-top: 1rem;
+  // margin-top: 1rem;
   margin-bottom: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
-  grid-gap: 1.0rem;
-  background-color: rgba;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  grid-gap: 0.7rem;
+  height: fit-content;
+}
+.tech-stack-title{
+  font-size: 18px;
+  font-weight:300;
+  margin-top: 1rem;
+  // margin-bottom: 0.8rem;
+  text-decoration: underline;
+  color: gray;
 }
