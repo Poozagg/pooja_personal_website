@@ -14,4 +14,7 @@ Rails.application.routes.draw do
 
   # -----! Separate aboutme page !-----
   get "aboutme", to: "pages#aboutme"
+
+  # -----! Separate contactme page !-----
+  get "contactme", to: "pages#contactme"
 end

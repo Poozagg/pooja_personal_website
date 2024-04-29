@@ -1,13 +1,38 @@
+html{
+  position:relative;
+  min-height: 100%;
+}
 .footer {
-  // background: #F4F4F4;
-  display: flex;
+  // margin-top: 30px;
+  background: #e7e3e367;
+  // display: flex;
   align-items: center;
-  justify-content: end;
-  height: 100px;
-  padding: 0px 50px;
+  justify-content: center;
+  height: 80px;
+  padding: 0px 30px;
   color: rgba(0,0,0,0.3);
-  margin-right: 45px;
+  // margin-right: 45px;
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  right: 0;
 }
 .footer .fa-heart {
   color: #D23333;
+}
+
+// .fa-github {
+//   width: 50px;
+//   height: 50px;
+// }
+.link-icon {
+  font-size: larger;
+  color: grey;
+}
+.link-icon:hover {
+  cursor: pointer;
+  color: black;
+}
+.footer-copyright {
+  font: 15px;
 }
