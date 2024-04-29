@@ -2,8 +2,18 @@
 <p>Find me in app/views/pages/home.html.erb</p> %>
 
 <div class="container mt-2">
-  <%= render "about_me" %>
-  <%= render "auto_play_slider" %>
-  <%= render "projects" %>
-  <%= render "link_to_social_media" %>
+  <div class="row intro d-flex justify-content-between">
+    <div class="col-12 col-lg-6 p-2 bd-highlight">
+      <h1 class="name">Pooja Gurung</h1>
+      <h3 class="job-tile"> Design Engineer|Software Developer </h3>
+    </div>
+    <div class="col-12 col-lg-6">
+        <%= image_tag "MY_IMAGE.png", class: "profile-pic" %>
+    </div>
+  </div>
+  <div class="mb-4">
+    <p> Design Engineer with Full-Stack Development Skills seeking a Software Developer role, particularly in full-stack development.
+    I successfully completed Le Wagon's coding bootcamp and built full-stack web applications (SlopeRentals, WasteNot).
+    Eager to contribute a fresh perspective and merge my engineering background with software development. </p>
+  </div>
 </div>

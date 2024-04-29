@@ -8,4 +8,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # -----! Separate projects page !-----
+  get "projects", to: "pages#projects"
+
+  # -----! Separate aboutme page !-----
+  get "aboutme", to: "pages#aboutme"
+
+  # -----! Separate contactme page !-----
+  get "contactme", to: "pages#contactme"
 end
