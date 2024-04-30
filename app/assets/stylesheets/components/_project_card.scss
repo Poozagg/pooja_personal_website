@@ -1,3 +1,31 @@
+// ----------------! css for link to particular project on the page !--------------
+
+.link-to-a-project {
+  background-color: #a0c4ff;
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  width: auto;
+  margin-right: 20px;
+  border-color: lightgray;
+
+}
+
+.link-to-a-project:hover {
+  background-color: pink;
+  color: white;
+}
+.link-to-a-project > a:hover {
+  background-color: pink;
+  color: white;
+}
+
+.link-to-a-project a {
+  text-decoration: none;
+  color: black;
+}
+// ----------------! css for project card !--------------
 .project-card{
   background-color: #e4c1f9;
   border-radius: 10px;

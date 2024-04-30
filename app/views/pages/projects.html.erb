@@ -1,27 +1,47 @@
 <div id="my-projects" class="container-projects m-3 p-4">
+  <div class="row justify-content-center">
+    <div class="link-to-a-project col-3 col-lg-6">
+      <%= link_to "tenzies", "#tenzies", class: "" %>
+    </div>
+    <div class="link-to-a-project col-3 col-lg-6">
+      <%= link_to "quizzical", "#quizzical", class: "" %>
+    </div>
+    <div class="link-to-a-project col-3 col-lg-6">
+      <%= link_to "slopeRental", "#slopeRental", class: "" %>
+    </div>
+    <div class="link-to-a-project col-3 col-lg-6">
+      <%= link_to "wasteNot", "#wasteNot", class: "" %>
+    </div>
+    <div class="link-to-a-project col-3 col-lg-6">
+      <%= link_to "memeGenerator", "#memeGenerator", class: "" %>
+    </div>
+  </div>
 
   <div class="projects row">
-    <div class="col-12 col-lg-6">
+    <div id="tenzies" class="col-12 col-lg-6">
       <%= render "tenzies" %>
     </div>
-    <div class="col-12 col-lg-6">
+    <div id="quizzical" class="col-12 col-lg-6">
       <%= render "quizzical" %>
     </div>
   </div>
+
   <div class="projects row">
-    <div class="col-12 col-lg-6">
+    <div id="slopeRental" class="col-12 col-lg-6">
       <%= render "slopeRental" %>
     </div>
-    <div class="col-12 col-lg-6">
+    <div id="wasteNot"class="col-12 col-lg-6">
       <%= render "wasteNot" %>
     </div>
   </div>
+
   <div class="projects row">
-    <div class="col-12 col-lg-6">
+    <div id="memeGenerator" class="col-12 col-lg-6">
       <%= render "memeGenerator" %>
     </div>
     <div class="col-12 col-lg-6">
       <%# next project goes here %>
     </div>
   </div>
+
 </div>
