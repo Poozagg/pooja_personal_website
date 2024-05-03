@@ -49,20 +49,15 @@
 }
 .project-github-link:hover {
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(0,0,0,0.7);
   transform: scale(1.5);
-  border-radius: 13px;
 }
 .project-info-link {
   color: black;
-//   letter-spacing: 20px;
   font-size: 25px;
 }
 .project-info-link:hover {
   cursor: pointer;
-  box-shadow: 0 0 15px rgba(0,0,0,0.7);
   transform: scale(1.5);
-  border-radius: 13px;
 }
 .project-tech-stack {
   margin-top: 1rem;
@@ -73,4 +68,14 @@
   grid-row-gap: 0.5rem;
   height: fit-content;
   justify-items: flex-start;
+}
+// ---------------!link to website!-------------
+
+.project-website-link {
+  color: black;
+  font-size: 20px;
+}
+.project-website-link:hover {
+  cursor: pointer;
+  transform: scale(1.5);
 }
